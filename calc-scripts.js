@@ -9,6 +9,6 @@ for (var i = 0; i < btnDivs.length; i++) {
         this.style.backgroundColor = "rgb(0, 0, 0, 0.5)";
         currentDiv = this;
         const userInput = this.textContent;
-        ans.textContent = userInput;
+        ans.textContent += userInput;
     });
 }
